@@ -1,0 +1,15 @@
+h1{
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.middle{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#raspberry{
+    color: mediumvioletred;
+}
