@@ -1,0 +1,32 @@
+#root {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+#app {
+	margin: 0;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#introText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 300px;
+	margin: 100px 0;
+}
+
+#squirrelComponents {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 300px;
+	flex-wrap: wrap;
+}

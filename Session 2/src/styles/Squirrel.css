@@ -1,0 +1,18 @@
+.squirrelContainer {
+	background-color: aquamarine;
+	border-radius: 40px;
+	box-shadow: 0px 10px 60px #bebebe;
+	padding: 40px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 500px;
+	height: 500px;
+}
+
+.squirrelImage {
+	max-width: 400px;
+	border-radius: 20px;
+}
