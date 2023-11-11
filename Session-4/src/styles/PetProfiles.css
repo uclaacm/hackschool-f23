@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 20px;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px; 
+}
