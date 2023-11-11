@@ -1,6 +1,6 @@
 import React from "react";
 import { 
-  BrowserRouter as Router, 
+  BrowserRouter, 
   Routes, 
   Route
 } from "react-router-dom";
@@ -10,12 +10,12 @@ import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/doggos" element={<Doggos />} />
         <Route path="/cattos" element={<Cattos />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
